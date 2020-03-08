@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilePage">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBarId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Profile"
+            android:background="@color/colorPrimary"
+            app:titleTextColor="@color/white"
+            />
+
+        <View
+            android:id="@+id/toolBarViewId"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
